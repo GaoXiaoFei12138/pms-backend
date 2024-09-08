@@ -23,7 +23,7 @@ public class PersonnelController {
 
     @Autowired
     private PersonnelRepository personnelRepository;
-    private final String UPLOAD_DIR = "uploads/images/";
+    private final String UPLOAD_DIR = "./uploads/images/";
 
     @GetMapping
     public Page<Personnel> getUsers(
